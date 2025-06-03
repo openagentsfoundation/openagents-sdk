@@ -1,4 +1,3 @@
-```markdown
 # OpenAgents SDK
 
 OpenAgents SDK is an open-source framework for building intelligent agents powered by large language models (LLMs). It provides a modular, extensible core library for defining agent behaviors, workflows, and memory, along with reference implementations and hands-on examples. Whether you need a data analysis “Code Interpreter” agent, a Researcher agent, or a Coder agent, OpenAgents SDK offers the building blocks to develop, test, and deploy LLM-driven agents in real-world scenarios.
@@ -18,6 +17,7 @@ OpenAgents SDK (short for OpenAI Agents SDK) is designed to help developers and 
 ---
 
 ## 2. Breakdown of `openagents-sdk`
+
 ```
 
 openagents-sdk/
@@ -35,7 +35,7 @@ openagents-sdk/
 ├── requirements.txt # Python dependencies for openagents-sdk
 └── setup.py # Package metadata (used for `pip install -e .`)
 
-````
+```
 
 - **OpenAgent Core SDK (`openagent/`)**:
   - **Agent Core**: Provides abstractions for memory storage, tool usage (tool invocation interface), ReAct-style reasoning, Multi-Chain-of-Thought Planning (MCP), and Agent-to-Agent (A2A) communication patterns.
@@ -61,7 +61,7 @@ You have two options:
 
 ```bash
 pip install openagents-sdk
-````
+```
 
 This will install the latest stable release of OpenAgents SDK and all dependencies listed in `requirements.txt`.
 
