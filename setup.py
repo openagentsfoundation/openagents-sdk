@@ -25,7 +25,7 @@ if readme_path.exists():
     long_description = readme_path.read_text(encoding="utf-8")
 
 setup(
-    name="openagent",
+    name="openagents-sdk",
     version="0.1.0",
     description="OpenAgent SDK: tools and agents for building AI-driven assistants",
     long_description=long_description,
