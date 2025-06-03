@@ -45,10 +45,6 @@ setup(
         #     "openagent-cli = openagent.cli:main",
         # ],
     },
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+    license="MIT",
     include_package_data=True,
 )
